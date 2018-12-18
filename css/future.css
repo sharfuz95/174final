@@ -1,0 +1,13 @@
+body {
+}
+
+.futureContent {
+	margin: 60vh 0 0 10%;
+	padding: 2%;
+
+	width: 80%;
+	
+	border-radius: 10px;
+	background-color: #e3efeb;
+	color: #162E35;
+}

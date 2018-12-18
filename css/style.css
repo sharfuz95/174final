@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+	padding: 0;
+	
+	width: 100%;
+	
+	background-size: cover;
+	background-origin: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*----------FONTS AND PLACEMENT----------*/
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poller One', cursive;
+}
+
+p, a, li, label, button, #designSource {
+	font-family: 'Lato', sans-serif;
+}
+
+/*------------FONT SIZE AND PLACEMENT----*/
+h2 {
+	font-size: 2em;
+}
+
+p {
+	margin: 1%;
+	padding: 0;
+	
+	font-size: 1.25em;
+}
+
+/*------------------------------------MEDIA QUERIES--------------------------*/
+
+@media screen and (min-width: 480px) {
+	h2 {
+		font-size: 1em;
+	}
+
+	p {
+		font-size: .8em;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	h2 {
+		font-size: 1.25em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	h2 {
+		font-size: 1.5em;
+	}
+
+	p {
+		font-size: 1.125em;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	h2 {
+		font-size: 2em;
+	}
+
+	p {
+		font-size: 1.5em;
+	}
+}
